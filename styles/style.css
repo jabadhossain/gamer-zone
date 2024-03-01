@@ -1,0 +1,205 @@
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    margin: 0 100px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    gap: 20px;
+}
+
+.g-letter {
+    color: #FF42A5;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-content {
+    display: flex;
+    gap: 20px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.primary-btn {
+    border: 0px;
+    border-radius: 10px;
+    background-color: #EBE8F1;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.banner {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.banner-content {
+    position: relative;
+    text-align: start;
+
+}
+
+.text {
+    position: absolute;
+    left: 100px;
+    top: 30%;
+}
+
+.goat {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: "Work Sans";
+    background: -webkit-linear-gradient(#FE46B4, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.primary-btn1 {
+    color: #ffffff;
+    background-color: #FF42A5;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.primary-btn2 {
+    color: #ffffff;
+    background-color: #4EC5F7;
+    border: 0;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+/* main section start */
+.online-games {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imge-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.Funny-Videos {
+    font-family: "Work Sans";
+    background: -webkit-linear-gradient(#FE46B4, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.imge-4 {
+    position: relative;
+}
+
+.overly {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.imge-4:hover {
+    opacity: 0.7;
+}
+
+.imge-4:hover .fa-play {
+    color: azure;
+}
+
+
+
+.fa-play {
+    color: #4EC5F7;
+}
+
+/* play Instant section */
+.play-instantly-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.play-instantly-content {
+    margin-left: 200px;
+    margin-bottom: 200px;
+    text-align: right;
+}
+
+.play {
+    font-family: "Work Sans";
+    background: -webkit-linear-gradient(#FE46B4, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img55 {
+    margin-left: 500px;
+}
+
+.img66 {
+    position: relative;
+    margin-left: 300px;
+    bottom: 300px;
+}
+
+@media screen and (max-width: 576px) {
+
+    nav,
+    nav ul,
+    .nav-content,
+    .imge-container {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content img {
+        position: relative;
+        width: 100%;
+    }
+
+    .text {
+        position: absolute;
+        left: 130px;
+        top: 10%;
+    }
+}
